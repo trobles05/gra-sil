@@ -1,0 +1,185 @@
+body {
+    background: #EDE9D5;
+}
+
+/*cabecalho*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #DF7857;
+}
+
+.cabecalho-img{
+    width: 30%;
+    padding: 2em;
+}
+
+.cabecalho-links{
+    display: flex;
+
+}
+
+
+
+
+.cabecalho-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 1em;
+
+}
+
+.cabecalho-links a:hover{
+    color: rgb(56, 54, 54);
+}
+/*cabecalho*/
+/*main */
+.principal{
+    width: auto;
+    padding: 2% 10% ;
+}
+ 
+.texto-principal h2{
+    padding: 2% 0 0.6% 0;
+    text-align: center;
+    font-size: large;
+    font-size: 2em;
+}
+.texto-principal p{
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 1em;
+}
+
+.meninos{
+    padding: 0% 5% 0% 5%;
+}.meninas{
+    padding: 0% 5% 0% 5%;
+}
+
+.sexo{
+    text-align: center;
+}
+
+.h3-meninas{
+        font-weight: bold;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: italic; 
+        padding: 2em;  
+}
+.h3-meninos{
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding: 3%; 
+}
+
+.h3-meninos:hover{
+    text-shadow: 4px 4px 4px blue;
+}
+
+.h3-meninas:hover{
+    text-shadow: 4px 4px 4px pink;
+}
+
+h3:hover{
+    font-size: 2rem;
+    
+}
+
+.img-uni{
+    width: 5%;
+    vertical-align:middle;
+    opacity: 0.1;
+}
+
+.img-uni:hover{
+    opacity: 1;
+}
+
+
+.produtos{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens{ 
+    text-align: center;
+    padding: 2% 1%;
+    margin: 2%;
+    border: 3px solid  #e7ab9a;
+    border-radius: 10px;
+}
+
+.itens:hover{
+    width: 50%;
+}
+
+.itens-img{
+    padding: 2%;
+    width: 100%;
+}
+
+ h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.itens-preso{
+   font-size: 1rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #DF7857;
+    padding: 5%;   
+    font-size: 0.8rem;
+}
+
+
+
+.titulo-secudario{
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 3%;
+    text-align: center;
+    text-shadow: 2px 2px 2px#DF7857;
+}
+
+.texto-descricao{
+    padding: 0.7% 7%;
+    font-size: 1rem;
+}
+
+.texto-descricao:last-child{
+  padding-bottom: 5% ;
+}
+
+.contato{
+    padding: 2%;
+    font-size: 1rem;
+}
+
+ .contato-lista-contato{
+    padding: 0.5% 0;
+ }
+
+.redes-sociais{
+    display: inline;
+}
+
+ .img-sociais{
+    padding: 3% 0;
+    width: 5%;
+ }
